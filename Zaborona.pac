@@ -7,7 +7,7 @@ function FindProxyForURL(url, host)
                   "mail.ru",
                   "ok.ru",
                   "vk.com",
-                  "pp.userapi.com",
+                  "userapi.com",
 		  "vkuseraudio.net",
 		  "vkuservideo.net",
 		  "vk.cc",
@@ -19,7 +19,7 @@ function FindProxyForURL(url, host)
                   "disk-o.cloud",
                   "yadi.sk",
                   "wallet.webmoney.ru",
-		  "login.wmtransfer.com"];
+		  "wmtransfer.com"];
 				  
     for (var i = 0; i < domens.length; i++) {
         if (dnsDomainIs(host, domens[i])) {
