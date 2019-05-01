@@ -21,7 +21,7 @@ function FindProxyForURL(url, host)
                   "yadi.sk",
                   "r.mradx.net",
                   "wallet.webmoney.ru",
-		  "login.wmtransfer.com"];
+		  "login.wmtransfer.com/GateKeeper.aspx"];
 				  
     for (var i = 0; i < domens.length; i++) {
         if (dnsDomainIs(host, domens[i])) {
