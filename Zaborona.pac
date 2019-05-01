@@ -7,7 +7,7 @@ function FindProxyForURL(url, host)
                   "mail.ru",
                   "ok.ru",
                   "vk.com",
-                  "userapi.com",
+                  "*.userapi.com",
 		  "vkuseraudio.net",
 		  "vkuservideo.net",
 		  "vk.cc",
