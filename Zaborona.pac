@@ -9,6 +9,7 @@ function FindProxyForURL(url, host)
                   "vk.com",
                   "imv4.vk.com",
                   "*.userapi.com",
+                  "sun9-26.userapi.com",
 		  "vkuseraudio.net",
 		  "vkuservideo.net",
 		  "vk.cc",
