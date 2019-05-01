@@ -8,9 +8,8 @@ function FindProxyForURL(url, host)
                   "ok.ru",
                   "vk.com",
                   "imv4.vk.com",
-                  "userapi.com",
-                  "sun1-24.userapi.com",
-		  "vkuseraudio.net",
+                  "pp.userapi.com",
+                  "vkuseraudio.net",
 		  "vkuservideo.net",
 		  "vk.cc",
                   "yandex.ru",
@@ -20,6 +19,7 @@ function FindProxyForURL(url, host)
                   "yandexdatafactory.com",
                   "disk-o.cloud",
                   "yadi.sk",
+                  "r.mradx.net",
                   "wallet.webmoney.ru",
 		  "login.wmtransfer.com"];
 				  
