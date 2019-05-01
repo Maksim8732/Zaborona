@@ -20,8 +20,9 @@ function FindProxyForURL(url, host)
                   "disk-o.cloud",
                   "yadi.sk",
                   "r.mradx.net",
+                  "russia.tv",
                   "wallet.webmoney.ru",
-		  "login.wmtransfer.com/GateKeeper.aspx"];
+		  "wmtransfer.com"];
 				  
     for (var i = 0; i < domens.length; i++) {
         if (dnsDomainIs(host, domens[i])) {
