@@ -19,9 +19,8 @@ function FindProxyForURL(url, host)
                   "disk-o.cloud",
                   "yadi.sk",
                   "wallet.webmoney.ru",
-				  "login.wmtransfer.com",
-				  "mail.tikhenko.com"];
-
+				  "login.wmtransfer.com"];
+				  
     for (var i = 0; i < domens.length; i++) {
         if (dnsDomainIs(host, domens[i])) {
             return "SOCKS5 socks.zaborona.help:1488";
